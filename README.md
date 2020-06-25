@@ -6,7 +6,7 @@ The Jupyter Notebook included in this repository runs WEGL on the OGBG-molhiv da
 
 For further details on the approach and more comprehensive evaluation results, please visit [our paper webpage](https://skolouri.github.io/wegl/).
 
-## Requirements
+## Dependencies
 
 * [OGB](https://ogb.stanford.edu/): The Open Graph Benchmark.
 * [POT](https://pythonot.github.io/): A Python library for Optimal Transport.
