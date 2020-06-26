@@ -3,6 +3,7 @@ from collections import defaultdict
 from tqdm.notebook import tqdm
 import itertools
 import matplotlib.pyplot as plt
+import random
 
 import numpy as np
 import torch
@@ -15,7 +16,6 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import PredefinedSplit, GridSearchCV
 import ot
-
 
 from .onehot_bondencoder import BondEncoderOneHot
 from .diffusion import Diffusion
@@ -50,6 +50,10 @@ def WEGL(dataset,
         - A table containing the classification results
         
     """
+    
+    # Set the random seed
+    random.seed(random_seed)
+    np.random.seed(random_seed)
     
     # Create data loaders
     split_idx = dataset.get_idx_split() # train/val/test split
