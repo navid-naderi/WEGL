@@ -24,10 +24,12 @@ For further details on the approach and more comprehensive evaluation results, p
 If you use WEGL in your work, please cite our paper using the BibTeX citation below:
 
 ```
-@article{kolouri2020wasserstein,
-  title={Wasserstein Embedding for Graph Learning},
-  author={Kolouri, Soheil and Naderializadeh, Navid and Rohde, Gustavo K and Hoffmann, Heiko},
-  journal={arXiv preprint arXiv:2006.09430},
-  year={2020}
+@inproceedings{
+kolouri2021wasserstein,
+title={Wasserstein Embedding for Graph Learning},
+author={Soheil Kolouri and Navid Naderializadeh and Gustavo K. Rohde and Heiko Hoffmann},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=AAes_3W-2z}
 }
 ```
